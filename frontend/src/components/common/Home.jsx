@@ -1,10 +1,10 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
-import Image1 from '../../Images/Image1.png'
+import Image1 from '../../assets/Image1.png'
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
-import Footer from './FooterC'
+import Footer from '../common/FooterC'
 
 const Home = () => {
    return (
