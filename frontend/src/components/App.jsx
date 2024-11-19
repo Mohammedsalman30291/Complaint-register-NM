@@ -1,17 +1,17 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../css/bootstrap.min.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import HomePage from "./components/user/HomePage";
-import Login from "./components/common/Login";
-import SignUp from "./components/common/SignUp";
-import Complaint from "./components/user/Complaint";
-import Status from "./components/user/Status";
-import AdminHome from "./components/admin/AdminHome";
-import AgentHome from "./components/agent/AgentHome";
-import UserInfo from "./components/admin/UserInfo";
-import Home from "./components/common/Home";
-import AgentInfo from "./components/admin/AgentInfo";
+import Login from "../components/common/Login";
+import SignUp from "../components/common/SignUp";
+import Home from "../components/common/Home";
+import Complaint from "../components/user/Complaint";
+import HomePage from "../components/user/HomePage";
+import Status from "../components/user/Status";
+import AdminHome from "../components/admin/AdminHome";
+import UserInfo from "../components/admin/UserInfo";
+import AgentInfo from "../components/admin/AgentInfo";
+import AgentHome from "../components/agent/AgentHome";
 
 function App() {
   const isLoggedIn = !!localStorage.getItem("user");
